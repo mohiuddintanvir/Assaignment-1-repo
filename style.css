@@ -229,7 +229,7 @@ body {
     width: 100%;
     position: absolute;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 .updates h1 {
@@ -246,3 +246,66 @@ body {
     line-height: 25px;
     margin-bottom: 60px;
 }
+
+.email-content {
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(235, 189, 129, 0.178);
+    padding-top: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 80px;
+    margin-bottom: 80px;
+
+}
+
+form {
+    background: #fff;
+    width: 600px;
+    height: 55px;
+    display: flex;
+    margin-bottom: 20px;
+
+}
+
+form input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 30px 20px 20px 30px;
+}
+
+form button {
+    background: #fc5347;
+    padding: 10px 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+
+}
+
+form button a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer {
+
+    margin-top: 40%;
+    text-align: center;
+    padding-bottom: 20px;
+    background-color: #f3495d;
+    padding: 30px 30px;
+
+}
+
+.footer h1 p {}
