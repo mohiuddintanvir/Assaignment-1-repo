@@ -224,3 +224,25 @@ body {
     text-decoration: none;
 
 }
+
+.updates {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.updates h1 {
+    font-size: 70px;
+    margin-bottom: 25px;
+    color: black;
+}
+
+.updates p {
+    font-size: 25px;
+    color: rgb(148, 144, 144);
+    margin: 20px;
+    font-weight: 100;
+    line-height: 25px;
+    margin-bottom: 60px;
+}
