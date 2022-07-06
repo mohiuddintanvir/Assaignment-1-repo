@@ -1,5 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 
 }
 
@@ -119,6 +120,104 @@ body {
 }
 
 .action button a {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+
+}
+
+.plan {
+    margin-top: 50%;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.plan h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: black;
+
+}
+
+.plan p {
+    color: rgba(158, 159, 160, 0.945);
+    margin-bottom: 30px;
+}
+
+.main-service {
+    display: flex;
+    width: 100%;
+    text-align: left;
+    padding: 20px 20px 20px 20px;
+    margin-left: 20;
+    margin-bottom: 120px;
+}
+
+.main-service img {
+    width: 12%;
+}
+
+.service-box {
+    font-size: 25px;
+    margin: 40px;
+    padding-top: 0;
+}
+
+.service-box .box-1 {
+    background-color: #96d8ec;
+    padding: 20px 22px;
+}
+
+.service-box .box-2 {
+    background-color: #fd7070d7;
+    padding: 20px 22px;
+}
+
+.service-box .box-3 {
+    background-color: #f0c1a1d7;
+    padding: 20px 22px;
+}
+
+.top-banner {
+    display: flex;
+    width: 100%;
+    padding-top: 50px;
+    padding-left: 10%;
+    padding-right: 20%;
+    padding-bottom: 80px;
+
+
+}
+
+.banner-contain {
+    margin: 20px;
+}
+
+.banner-contain h1 {
+    font-size: 60px;
+    text-align: left;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.banner-contain p {
+    font-size: 15px;
+    text-align: left;
+    padding: 1px;
+}
+
+.banner-contain button {
+    background-color: #fc5347;
+    padding: 15px 25px;
+    border-radius: 10%;
+    border: none;
+    margin-top: 25px;
+    margin-bottom: 150px;
+}
+
+.banner-contain button a {
     text-align: center;
     color: white;
     font-size: 25px;
